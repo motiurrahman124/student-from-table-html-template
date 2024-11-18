@@ -1,0 +1,169 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7fafc;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.table-container {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 32px;
+}
+
+.table-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #4a5568;
+    margin-bottom: 24px;
+}
+
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-header {
+    background-color: #008000;
+}
+
+.table-header .table-cell{
+    color: white;
+}
+
+.table-cell {
+    padding: 16px;
+    text-align: left;
+    color: #4a5568;
+    border-top: 1px solid #d0dcd6;
+}
+
+.table-row:hover {
+    background-color: #f9fafb;
+}
+
+.btn-edit, .btn-delete {
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.btn-edit {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border: 1px solid blue;
+}
+
+.btn-edit:hover {
+    background-color: white;
+    color: blue;
+}
+
+.btn-delete {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 1px solid red;
+}
+
+.btn-delete:hover {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
+
+.form-container {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #4a5568;
+    margin-bottom: 24px;
+}
+
+.form-label {
+    display: block;
+    font-size: 1rem;
+    color: #4a5568;
+    margin-bottom: 8px;
+}
+
+.form-input {
+    width: 98%;
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+
+.form-input:focus {
+    border-color: #008000;
+    outline: none;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.btn-submit, .btn-cancel {
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.btn-submit {
+    background-color: #008000;
+    color: white;
+    border: 1px solid #008000;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: white;
+    color: #008000;
+}
+
+.btn-cancel {
+    background-color: #edf2f7;
+    color: #4a5568;
+    text-decoration: none;
+}
+
+.btn-cancel:hover {
+    background-color: #e2e8f0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 16px;
+    }
+
+    .student-table {
+        font-size: 0.875rem;
+    }
+
+    .table-title, .form-title {
+        font-size: 1.5rem;
+    }
+}

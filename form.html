@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student CRUD - Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100">
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Form to Add/Edit Student -->
+        <div class="form-container">
+            <h2 class="form-title">Add/Edit Student</h2>
+
+            <form class="student-form">
+                <label for="student-name" class="form-label">Name:</label>
+                <input type="text" id="student-name" name="name" class="form-input" required>
+
+                <label for="student-email" class="form-label">Email:</label>
+                <input type="email" id="student-email" name="email" class="form-input" required>
+
+                <label for="student-age" class="form-label">Age:</label>
+                <input type="number" id="student-age" name="age" class="form-input" required>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn-submit">Save</button>
+                    <a href="index.html" class="btn-cancel">Cancel</a>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>
